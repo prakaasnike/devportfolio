@@ -158,7 +158,7 @@ export const DATA = {
         },
       ],
       image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/portfolio.png",
-      // video:"",
+      video:"",
     },
     {
       title: "Dental Log Management System",
@@ -174,7 +174,7 @@ export const DATA = {
         },
       ],
       image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/projectp2.png",
-      // video: "",
+      video: "",
     },
   ],
   hackathons: [
