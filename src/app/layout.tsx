@@ -43,11 +43,24 @@ export const metadata: Metadata = {
   twitter: {
     title: DATA.name,
     card: "summary_large_image",
+    creator: "@erprakashnayak",
+    description: DATA.description,
   },
   verification: {
     google: "", // Add your Google verification code if necessary
     yandex: "", // Add your Yandex verification code if necessary
   },
+  keywords: [
+    "Prakash Nayak",
+    "Web Developer",
+    "Frontend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Portfolio",
+  ],
+  authors: [{ name: DATA.name, url: DATA.url }],
+  creator: DATA.name,
+  publisher: DATA.name,
 };
 
 export default function RootLayout({
