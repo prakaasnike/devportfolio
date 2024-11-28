@@ -1,3 +1,5 @@
+// app/layout.tsx
+
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -20,10 +22,10 @@ export const metadata: Metadata = {
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: DATA.name,
     locale: "en_US",
     type: "website",
   },
@@ -39,12 +41,12 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: `${DATA.name}`,
+    title: DATA.name,
     card: "summary_large_image",
   },
   verification: {
-    google: "",
-    yandex: "",
+    google: "", // Add your Google verification code if necessary
+    yandex: "", // Add your Yandex verification code if necessary
   },
 };
 
@@ -62,6 +64,8 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="light">
+          {/* Moved Navbar inside ThemeProvider */}
+       
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
