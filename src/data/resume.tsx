@@ -11,7 +11,7 @@ export const DATA = {
     "UI/UX and WordPress development. Passionate about creating intuitive user experiences and building scalable web solutions. Experienced in modern web technologies and design systems.",
   summary:
     "I’m a passionate developer with expertise in WordPress, Laravel, React, and modern web technologies like Tailwind CSS, Vue, and Node.js. With a strong foundation in programming, I aim to build innovative solutions. When I'm not coding, you’ll find me in nature, enjoying bike rides and exploring the outdoors. My goal is to continuously learn and contribute to the tech community.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "HTML | CSS | JS",
     "Tailwindcss | Bulma | Bootstrap",
@@ -97,7 +97,7 @@ export const DATA = {
       href: "https://hiver.com.np/",
       location: "Onsite",
       title: "Web Developer",
-      logoUrl: "/hiver.png",
+      logoUrl: "/hiver.webp",
       start: "Jul 2021",
       end: "Sep 2022",
       description:
@@ -137,7 +137,7 @@ export const DATA = {
       school: "Nightingale Higher Secondary School",
       href: "https://nightingale.edu.np/",
       degree: "School Leaving Certificate (SLC)",
-      logoUrl: "/nhss.svg",
+      logoUrl: "/nhss.webp",
       start: "2001",
       end: "2011",
     },
@@ -157,7 +157,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/portfolio.png",
+      image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/portfolio.webp",
       video:"",
     },
     {
@@ -173,7 +173,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/projectp2.png",
+      image: "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/projectp2.webp",
       video: "",
     },
   ],
