@@ -86,7 +86,7 @@ export const DATA = {
       location: "Onsite & Remote",
       title: "Wordpress & UI/UX Development",
       logoUrl: "/avo.svg",
-      start: "May 2021",
+      start: "Nov 2024",
       end: "Oct 2022",
       description:
         "Development of Wordpress sites, frontend design, and responsive site creation. Client communication for design and development on regular basis with daily updates and training clients for blog management and basic site self-maintenance.",
