@@ -1,5 +1,3 @@
-// app/layout.tsx
-
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,6 +5,7 @@ import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
+import Script from "next/script"; // Import the Script component from next
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -47,16 +46,17 @@ export const metadata: Metadata = {
     description: DATA.description,
   },
   verification: {
-    google: "", // Add your Google verification code if necessary
+    google: "3u6CqWdH_8H56EydwIPN5t62nxcPVMyeL-a7Vykd5V8", // Add your Google verification code if necessary
     yandex: "", // Add your Yandex verification code if necessary
   },
   keywords: [
     "Prakash Nayak",
-    "Web Developer",
-    "Frontend Developer",
+    "Prakash Nayak Nepal",
+    "Web Developer Nepal",
+    "Frontend Developer Nepal",
     "React Developer",
     "Next.js Developer",
-    "Portfolio",
+    "Developer Portfolio Nepal",
   ],
   authors: [{ name: DATA.name, url: DATA.url }],
   creator: DATA.name,
@@ -76,9 +76,13 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        {/* Add the Umami script using next/script */}
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="b7cb989e-b4a3-409d-b659-1fb6b9f61d39"
+          strategy="lazyOnload" // Ensures the script loads lazily
+        />
         <ThemeProvider attribute="class" defaultTheme="dark">
-          {/* Moved Navbar inside ThemeProvider */}
-       
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
