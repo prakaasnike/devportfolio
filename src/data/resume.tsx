@@ -109,7 +109,7 @@ export const DATA = {
       badges: [],
       location: "Lalitpur, Nepal",
       title: "Wordpress & UI/UX Development",
-      logoUrl: "/insight.jpg",
+      logoUrl: "/insight.webp",
       start: "Jan 2020",
       end: "Apr 2020",
       description:
