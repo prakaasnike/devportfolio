@@ -65,7 +65,13 @@ export const DATA = {
       Threads: {
         name: "Threads",
         url: "https://dub.sh/prakash-threads",
-        icon: Icons.globe,
+        icon: Icons.atSign,
+        navbar: true,
+      },
+      Resume: {
+        name: "Resume",
+        url: "https://dub.sh/resume-pdf",
+        icon: Icons.userRound,
         navbar: true,
       },
       email: {
