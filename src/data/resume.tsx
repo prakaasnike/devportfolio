@@ -35,6 +35,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/hackathons", icon: Icons.zap, label: "Hackathons" },
     // { href: "/projects", icon: Icons.project, label: "Projects" },
   ],
   contact: {
@@ -60,7 +61,7 @@ export const DATA = {
         url: "https://dub.sh/prakash-twitter",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Threads: {
         name: "Threads",
@@ -183,22 +184,22 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [
-    {
-      title: "Hackathon",
-      dates: "October 29, 2017",
-      location: "Lalitpur, Nepal",
-      description:
-        "Developed an internal widget for uploading assignments portal app",
-      image:
-        "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/hack.jpg",
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "#",
-        },
-      ],
-    },
-  ],
+  // hackathons: [
+  //   {
+  //     title: "Hackathon",
+  //     dates: "October 29, 2017",
+  //     location: "Lalitpur, Nepal",
+  //     description:
+  //       "Developed an internal widget for uploading assignments portal app",
+  //     image:
+  //       "https://ik.imagekit.io/kbopxwsjw/Portfolio/Project/hack.jpg",
+  //     links: [
+  //       {
+  //         title: "Source",
+  //         icon: <Icons.github className="h-4 w-4" />,
+  //         href: "#",
+  //       },
+  //     ],
+  //   }, 
+  // ],
 } as const;

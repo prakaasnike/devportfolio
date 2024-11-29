@@ -1,4 +1,4 @@
-import { GlobeIcon, MailIcon, AtSignIcon, UserRoundIcon, GalleryVerticalEndIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, AtSignIcon, UserRoundIcon, GalleryVerticalEndIcon, CodeIcon, ZapIcon } from "lucide-react";
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -8,6 +8,8 @@ export const Icons = {
   atSign: (props: IconProps) => <AtSignIcon {...props} />,
   userRound: (props: IconProps) => <UserRoundIcon {...props} />,
   galleryVerticalEnd: (props: IconProps) => <GalleryVerticalEndIcon {...props} />,
+  code: (props: IconProps) => <CodeIcon {...props} />,
+  zap: (props: IconProps) => <ZapIcon {...props} />,
   linkedin: (props: IconProps) => (
     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
       <title>LinkedIn</title>

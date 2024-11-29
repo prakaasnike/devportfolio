@@ -9,7 +9,7 @@ interface Props {
   location: string;
   image?: string;
   links?: readonly {
-    icon: React.ReactNode;
+    icon: (props: { className?: string }) => React.ReactNode;
     title: string;
     href: string;
   }[];
@@ -50,7 +50,7 @@ export function HackathonCard({
           {links?.map((link, idx) => (
             <Link href={link.href} key={idx}>
               <Badge key={idx} title={link.title} className="flex gap-2">
-                {link.icon}
+                {link.icon({ className: "h-4 w-4" })}
                 {link.title}
               </Badge>
             </Link>
