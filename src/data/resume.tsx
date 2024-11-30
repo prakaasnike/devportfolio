@@ -93,8 +93,8 @@ export const DATA = {
       location: "Onsite & Remote",
       title: "Wordpress & UI/UX Development",
       logoUrl: "/avo.svg",
-      start: "Nov 2024",
-      end: "Oct 2022",
+      start: "Oct 2022",
+      end: "Nov 2024",
       description:
         "Development of Wordpress sites, frontend design, and responsive site creation. Client communication for design and development on regular basis with daily updates and training clients for blog management and basic site self-maintenance.",
     },
@@ -106,7 +106,7 @@ export const DATA = {
       title: "Web Developer",
       logoUrl: "/hiver.webp",
       start: "Jul 2021",
-      end: "Sep 2022",
+      end: "Sept 2022",
       description:
         "Worked as Frontend UI/UX Development, Laravel, and WordPress. Built systems like Jewelry, Dental, and Hotel Log Management. Experience in digital and offline marketing.",
     },
@@ -117,8 +117,8 @@ export const DATA = {
       location: "Lalitpur, Nepal",
       title: "Wordpress & UI/UX Development",
       logoUrl: "/insight.webp",
-      start: "Jan 2020",
-      end: "Apr 2020",
+      start: "Sept 2018",
+      end: "May 2021",
       description:
         "Experienced in custom theme design, UI development, and creating designs with Adobe XD and Figma. Proficient in crafting unique styles with ACF, developing responsive CMS websites using Divi and Elementor, integrating WooCommerce, and optimizing for SEO. Skilled in logo design, digital graphics, and writing SEO-driven e-commerce blogs to boost traffic. Expertise in website maintenance, security, and managing projects from concept to delivery.",
     },

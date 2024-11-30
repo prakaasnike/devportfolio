@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     description: DATA.description,
   },
   verification: {
-    google: "3u6CqWdH_8H56EydwIPN5t62nxcPVMyeL-a7Vykd5V8", // Add your Google verification code if necessary
+    google: "google-site-verification=3u6CqWdH_8H56EydwIPN5t62nxcPVMyeL-a7Vykd5V8", // Add your Google verification code if necessary
     yandex: "", // Add your Yandex verification code if necessary
   },
   keywords: [
